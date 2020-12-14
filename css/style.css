@@ -1707,6 +1707,7 @@ body.ie ._ibg img {
   display: block;
   width: 100%;
   max-height: 400px;
+  min-height: 200px;
   padding: 0px 0px 31% 0px;
   position: relative;
 }
@@ -1785,8 +1786,8 @@ body.ie ._ibg img {
 
 .slide__subtitle {
   font-size: 15px;
-  line-height: calc(7px + 17 * ((100vw - 320px) / 960));
-  margin-bottom: calc(10px + 19 * ((100vw - 320px) / 960));
+  line-height: calc(10px + 14 * ((100vw - 320px) / 960));
+  margin-bottom: calc(20px + 9 * ((100vw - 320px) / 960));
 }
 
 @media (min-width: 767.98px) {
@@ -1856,11 +1857,11 @@ body.ie ._ibg img {
   }
 
   .slide__title {
-    font-size: calc(15px + 25 * ((100vw - 320px) / 680));
+    font-size: calc(20px + 20 * ((100vw - 320px) / 680));
   }
 
   .slide__subtitle {
-    font-size: calc(6px + 9 * ((100vw - 320px) / 680));
+    font-size: calc(11px + 4 * ((100vw - 320px) / 680));
   }
 }
 
