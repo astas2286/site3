@@ -2280,6 +2280,14 @@ body.ie ._ibg img {
     padding: 0 10px;
   }
 
+  .btn_card {
+    padding-top: calc(4px + 6 * ((100vw - 320px) / 960));
+    padding-bottom: calc(4px + 6 * ((100vw - 320px) / 960));
+    padding-left: calc(7px + 13 * ((100vw - 320px) / 960));
+    padding-right: calc(7px + 13 * ((100vw - 320px) / 960));
+    font-size: 18px;
+  }
+
   .header__logo img {
     width: 53%;
   }
@@ -2488,6 +2496,10 @@ body.ie ._ibg img {
 }
 
 @media (max-width: 767.98px) and (max-width: 1000px) {
+  .btn_card {
+    font-size: calc(10px + 8 * ((100vw - 320px) / 680));
+  }
+
   .card__inner {
     top: calc(-10px + 60 * ((100vw - 320px) / 680));
   }
@@ -2514,6 +2526,14 @@ body.ie ._ibg img {
 }
 
 @media (max-width: 688px) {
+  .btn_card {
+    padding-top: calc(9px + 11 * ((100vw - 320px) / 960));
+    padding-bottom: calc(9px + 11 * ((100vw - 320px) / 960));
+    padding-left: calc(15px + 15 * ((100vw - 320px) / 960));
+    padding-right: calc(15px + 15 * ((100vw - 320px) / 960));
+    font-size: 18px;
+  }
+
   .cards__column {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
@@ -2542,6 +2562,10 @@ body.ie ._ibg img {
 }
 
 @media (max-width: 688px) and (max-width: 1000px) {
+  .btn_card {
+    font-size: calc(10px + 8 * ((100vw - 320px) / 680));
+  }
+
   .card__inner {
     top: calc(10px + 40 * ((100vw - 320px) / 680));
   }
@@ -2599,7 +2623,7 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 345px) {
+@media (max-width: 370px) {
   .btn_card {
     font-size: 18px;
     padding: 10px 15px;
