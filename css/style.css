@@ -1953,6 +1953,8 @@ body.ie ._ibg img {
           flex: 0 1 25%;
   padding: 0 10px;
   margin: 0px 0px 10px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .cards__card {
