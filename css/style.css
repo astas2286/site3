@@ -1948,9 +1948,9 @@ body.ie ._ibg img {
 
 .cards__column {
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
   padding: 0 10px;
   margin: 0px 0px 10px 0px;
 }
@@ -2448,17 +2448,17 @@ body.ie ._ibg img {
   }
 
   .cards__column {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 33.333%;
-            flex: 1 1 33.333%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 33.333%;
+            flex: 0 1 33.333%;
   }
 }
 
 @media (max-width: 479.98px) {
   .cards__column {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
   }
 }
 
